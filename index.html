@@ -4,7 +4,8 @@
     <meta scharset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Hamburchetos - Principal</title>
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js" defer></script>
 
@@ -33,66 +34,84 @@
     <main>
         <header class="encabezado">
             <img src="image/logo.jpg" alt="Logo de la empresa">
-            <h1>Nombre de la empresa</h1>
+            <h1><span id="tit">Hamburchetos</span> </h1>
             <h2>Slogan:Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia vero vel </h2>
         </header>
 
 
-        <section class="hamburguesas">
+        <section class="seccion">
             <div class="titulo">hamburguesas</div>
-            <div class="fotos"><img src="image/hamburguesa2.jpg" alt="Hamburguesa"></div>
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div id="caruselHamburguesa" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="image/cerveza1.jpg" class="d-block w-100" alt="...">
+                    <img src="image/hamburguesa2.jpg" class="d-block w-100" alt="Hamburguesa tipo 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="image/dins-santi-taura-restaurante-platos-2.jpg" class="d-block w-100" alt="...">
+                    <img src="image/hamburguesa3.jpg" class="d-block w-100" alt="Hamburguesa tipo 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="image/dins-santi-taura-restaurante-platos-a-1.jpg" class="d-block w-100" alt="...">
+                    <img src="image/hamburguesa4.jpg" class="d-block w-100" alt="Hamburguesa tipo 3">
                 </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#caruselHamburguesa" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#caruselHamburguesa" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
                 </button>
             </div>             
         </section>
 
-        <section class="cervezas">
+        <section class="seccion">
             <div class="titulo">Cervezas</div>
-            <div class="fotos"><img src="image/cerveza2.jpg" alt="Cerveza"></div>
-              <div id="carouselExampleRide2" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-inner">
+            <div id="carouselCerveza" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="image/cerveza1.jpg" class="d-block w-100" alt="...">
+                        <img src="image/cerveza2.jpg" class="d-block w-100" alt="Cerveza tipo 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="image/dins-santi-taura-restaurante-platos-2.jpg" class="d-block w-100" alt="...">
+                        <img src="image/cerveza3.jpg" class="d-block w-100" alt="Cerveza tipo 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="image/dins-santi-taura-restaurante-platos-a-1.jpg" class="d-block w-100" alt="...">
+                        <img src="image/cerveza4.jpg" class="d-block w-100" alt="Cerveza tipo 3">
                     </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
-                    </button>
-                </div>      
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCerveza" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCerveza" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
+                </button>
+            </div>                   
         </section>
 
-        <section class="veggie">
+        <section class="seccion">
             <div class="titulo">Veggie</div>
-            <div class="fotos"><img src="image/veggie1.jpg" alt="Vegana"></div>
+            <div id="carouselVeggie" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/veggie2.jpg" class="d-block w-100" alt="Veggie tipo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/veggie3.jpg" class="d-block w-100" alt="Veggie tipo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/veggie4.jpg" class="d-block w-100" alt="Veggie tipo 3">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVeggie" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselVeggie" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
+                </button>
+            </div>             
         </section>
     </main>
 
